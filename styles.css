@@ -1,0 +1,538 @@
+/* fonty */
+
+.pagePadding{
+  margin-top: 60px !important;
+}
+
+.pagePadding h1{
+  text-align: center;
+}
+
+.pagePadding h2{
+  text-align: center;
+}
+
+.pageText{
+  text-align: justify;
+  margin: 4em 2em 2em 2em;
+}
+
+.bolder{
+  font-weight: bolder;
+}
+
+.centerText{
+  text-align: center; 
+}
+
+*{
+ font-family: poppins, sans-serif;
+}
+
+p {
+ font-size: 16px;
+}
+
+.textKruhy {
+  color: #eae6d8;
+}
+
+.textKruhy:hover {
+  color: #1a1a1a;
+}
+
+.pKruhy {
+  color: #eae6d8;
+}
+
+.textKarty {
+  color: #493c36;
+  text-align: center;
+}
+
+.textKarty:hover {
+  color: #bd2828;
+}
+
+.linkRoute  {
+    color: black;
+}
+
+.linkRoute:hover  {
+    color: #bd2828;
+    text-decoration: none;
+}
+
+.pKontakt {
+  color: #eae6d8;
+  text-align: left;
+}
+
+.h3Seznam {
+  text-align: left;
+}
+
+.ulSeznam {
+  font-size: 16px;
+  text-align: left;
+}
+
+.nesmi {
+   font-weight: bold;
+   color: #bd2828; 
+}
+
+.card-title {
+    font-size: 19px;
+    font-weight: bolder;
+    color: black; 
+    margin-top: 10px !important; 
+    padding: 10px 0px 20px 0px;
+}
+
+.triple-title {
+    font-size: 25px;
+    font-weight: bolder;
+    color: white; 
+    margin-top: 15px;  
+}
+
+.triple-title:hover {
+    color: black;   
+}
+
+.triple-text {
+    font-size: 25px;
+}
+
+.h4Text {
+    font-size: 19px;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+.text-strong {
+    font-weight: bold;
+}
+
+.hlavicka th {
+  text-align: center;
+}
+
+.text-top {
+    display: block;
+    margin-top: 100px;
+}
+
+.text-top-mala {
+    display: block;
+    margin-top: 50px;
+}
+
+.text-top-mini {
+    display: block;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .text-top {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    }  
+}  
+
+@media screen and (max-width: 768px) {
+    .text-top-mala {
+    display: block;
+    margin-top: 10px;
+    }  
+}  
+
+/* hlavní sekce */
+
+.karty {
+  background-color: #e6e6e6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.kartyBarva:hover {
+  background-color: #b48d57;
+}
+
+.onas {
+  background-color: #cccccc;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.kruhy {
+    background: rgb(192,49,38);
+    background: radial-gradient(circle, rgba(189,40,40,1) 73%, rgba(255,209,0,1) 100%);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .kruhy {
+      padding-top: 100px !important;
+    } 
+}
+
+.box {
+ background-color: #e6e6e6;
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+
+.reference {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.kontakt {
+    background: rgb(192,49,38);
+    background: radial-gradient(circle, rgba(189,40,40,1) 73%, rgba(255,209,0,1) 100%);
+} 
+
+/* hlavní foto popisy */
+
+.back {
+  background-image: url('https://sircleuk.com/wp-content/uploads/2021/07/fire-safety-services.jpg');
+  height: 800px;
+}
+
+@media (min-width: 1025px) and (max-width: 1365px) {
+    .absolute2 {
+      left: -250px !important;
+    }
+    
+    .absolute {
+       top: 80% !important;
+    }
+}
+
+.absolute {
+  position: absolute;
+  width: 75%;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.absolute2 {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: -90px;
+  transform: translate(-50%, -50%);
+}
+
+.shadow {
+  border-radius: 5%;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.popisek {
+    border: none;
+    border-radius:20px !important;
+}
+
+/* karty */
+
+.card {
+    background-color: #bd2828;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    border: none;
+    border-radius:20px !important;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 1s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.card-img,
+.card-img-top {
+    border-top-left-radius: calc(1rem - 1px);
+    border-top-right-radius: calc(1rem - 1px)
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: contain;
+}
+
+.card h3 {
+    overflow: hidden;
+    height: 25px;
+    font-weight: 700;
+    font-size: 2rem
+}
+
+.card2 p {
+    overflow: hidden;
+    height: 20px;
+    font-weight: 500;
+    font-size: 1,5rem;
+    color: #493c36;
+}
+
+.card2 {
+    background-color: #bd2828;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    border: none;
+    border-radius:20px !important;
+    width: 100%;
+}
+
+.card2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.card2-img,
+.card2-img-top {
+    border-top-left-radius: calc(1rem - 1px);
+    border-top-right-radius: calc(1rem - 1px)
+}
+
+.card2-img-top {
+    width: 100%;
+}
+
+.card2 h3 {
+    overflow: hidden;
+    height: 25px;
+    font-weight: 700;
+    font-size: 2rem
+}
+
+.card2 p {
+    overflow: hidden;
+    height: 20px;
+    font-weight: 500;
+    font-size: 1,5rem;
+    color: #493c36;
+}
+
+.karta {
+  color: black;
+  text-align: center;
+}
+
+.list-group {
+    border-radius:20px !important;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+}
+
+.boxik {
+    background-color: white;
+}
+
+/* odkazy */
+
+.odkaz:link {
+  text-decoration: none;
+}
+
+.odkaz:hover {
+  text-decoration: none;
+}
+
+.prasekLink {
+    color: #bd2828;
+}
+
+.prasekLink:hover {
+    color: #bd2828;
+}
+
+/* style grafika pod nadpisy */
+
+.teckyKruhy {
+  color: #eae6d8; 
+  vertical-align: top; 
+}
+
+.teckyKarty {
+  color: #bd2828; 
+  vertical-align: top; 
+}
+
+.teckyKontakt {
+  color: #e6e6e6; 
+  vertical-align: top; 
+}
+
+.teckySeznam {
+  color: #bd2828; 
+  vertical-align: top; 
+  float:left;
+}
+
+/* tlačítko */
+
+.button {
+  background-color: #d3302f; /* Green */
+  border: none;
+  color: #eae6d8;
+  padding: 12px 40px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  justify-content: center;
+}
+
+.buttonNav {
+  background-color: #bd2828; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 550;
+}
+
+.button:hover {
+  background-color: #931f1f;
+  color: #eae6d8;
+  text-decoration: none;
+}
+
+.buttonHas {
+  width: 150px; 
+}
+
+/* img opacity */
+
+.opa {
+  filter: brightness(60%);
+}
+
+.imgOpa {
+  opacity: 1;
+}
+
+.imgOpa:hover {
+  opacity: 0.5;
+}
+
+/* navigace */
+
+.navigace {
+    background: rgb(192,49,38);
+    background: radial-gradient(circle, rgba(189,40,40,1) 73%, rgba(255,209,0,1) 100%);
+}
+
+.nav.navbar-nav li a {
+     color: #e6e6e6 !important; 
+     font-weight: 550;
+     background-color: #bd2828;
+}
+
+.nav.navbar-nav li a:hover { 
+     color: #bd2828 !important;
+     background-color: #e6e6e6;
+}
+
+.dropdown-menu li {
+  font-size: 17px;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+ 
+.dropdown-menu {
+  width: auto;
+  background-color: #bd2828 !important;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/* navigace - sloupek */
+
+.dropdown-menu.columns-2 {
+	min-width: 400px;
+}
+
+.multi-column-dropdown {
+	list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #262626;
+	background-color: #999;
+}
+
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+
+@media screen and (min-width: 768px) {
+    li.dropdown:hover .dropdown-menu{
+            display:block;
+        }   
+} 
+
+/* kontakt form */
+
+.form-control:focus {
+  border-color: #d3302f !important;
+  box-shadow: 0 0 0 0.2rem rgba(211,48,47, 0.5) !important;
+} 
+
+/* kdo ví */
+   
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}    
+
+.textFoto {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-item .img-fluid {
+  width:100%;
+  height:100%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cont {
+  position: relative;
+  text-align: center;
+  color: white;
+}
